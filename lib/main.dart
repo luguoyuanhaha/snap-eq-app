@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage> {
   String out = "拍照后点击识别并求解";
   bool loading = false;
 
-  final String apiBase = "http://YOUR_SERVER_IP:8000";
+  final String apiBase = "http://192.168.10.10:8000";
 
   Future<void> takePhoto() async {
     final x = await picker.pickImage(source: ImageSource.camera, imageQuality: 90);
