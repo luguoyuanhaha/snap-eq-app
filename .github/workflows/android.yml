@@ -24,6 +24,9 @@ jobs:
           channel: stable
           flutter-version: '3.24.3'
 
+      - name: Create Android project files
+        run: flutter create --platforms=android .
+
       - name: Get packages
         run: flutter pub get
 
