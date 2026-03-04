@@ -1,0 +1,16 @@
+name: snap_eq_app
+description: Camera equation solver app
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+flutter:
+sdk: flutter
+image_picker: ^1.1.2
+http: ^1.2.2
+
+flutter:
+uses-material-design: true
